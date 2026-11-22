@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python build & packaging artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / PyCharm settings
+.idea/
+.vscode/
+
+# Environment & secrets (never commit PyPI tokens!)
+.env
+.pypirc
+
+# OS junk files
+.DS_Store
+Thumbs.db

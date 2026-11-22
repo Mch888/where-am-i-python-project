@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "where-am-i-locator"
+version = "0.1.0"
+description = "Zero-dependency, VPN-bypassing physical geolocation using native OS location services and Wi-Fi BSSID fallback."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name"}
+]
+dependencies = []
+
+[project.scripts]
+where-am-i = "Locator.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
